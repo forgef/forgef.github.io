@@ -1,0 +1,148 @@
+---
+css: cv_styles.css
+---
+
+
+
+
+<br>
+
+
+<h1><font size="10"><b>Fabien Forge</b></font></h1>
+You can download my CV [here](cv.pdf), last update: September 2019
+
+contact: fforg097@uottawa.ca
+
+<h2><b>EDUCATION</b></h2> 
+<center>
+<h3>Graduate Studies</h3> 
+
+<font size="3">
+<table style="width:100%">
+    <tr>
+    <td><b>University of Ottawa</b></td>
+    <td>Ph.D. in Economics</td>
+    <td> 2015 - Present</td>
+  </tr>
+  <tr>
+    <td>Fields:  Environment, Trade, Development </td>
+    <td>  </td>
+    <td> </td>
+  </tr>
+  <tr>
+<td bgcolor="#FFFFFF" style="line-height:10px;" colspan=3>&nbsp;</td>
+</tr>
+  <tr>
+    <td><b>University of California Berkeley, Haas School of Business</b></td>
+    <td>Visiting Ph.D. student</td>
+    <td> 2019</td>
+</tr>
+ <tr>
+<td bgcolor="#FFFFFF" style="line-height:10px;" colspan=3>&nbsp;</td>
+</tr>
+<tr>
+    <td><b>University of Grenoble Alps</b></td>
+    <td>Masters in Economics</td>
+    <td> 2013-2014</td>
+</tr> 
+<tr>
+    <td>Fields:  Political Economy and International Economics</td>
+    <td> </td>
+    <td>  </td>
+</tr> 
+ <tr>
+<td bgcolor="#FFFFFF" style="line-height:10px;" colspan=3>&nbsp;</td>
+</tr>
+<tr>
+    <td><b>Kedge Business School</b>, Marseille</td>
+    <td>Masters of Science in Business</td>
+    <td> 2009-2013</td>
+</tr> 
+<tr>
+    <td>Fields: International Business and Economics</td>
+    <td> </td>
+    <td>  </td>
+</tr> 
+<tr>
+<td bgcolor="#FFFFFF" style="line-height:10px;" colspan=3>&nbsp;</td>
+</tr>
+<tr>
+    <td><b>Brandeis International Business School</b>, Waltham, MA</td>
+    <td>Exchange student</td>
+    <td> 2011</td>
+</tr> 
+<tr>
+    <td>Fields: Economics and Political Science</td>
+    <td> </td>
+    <td>  </td>
+</tr> 
+</table>
+
+<h3>Undergraduate Studies</h3> 
+</center>
+<table style="width:100%">
+<tr>
+    <td><b>University of Grenoble Alps</b></td>
+    <td>B.A. in Economics</td>
+    <td> 2011-2012</td>
+</tr> 
+<tr>
+<td bgcolor="#FFFFFF" style="line-height:10px;" colspan=3>&nbsp;</td>
+</tr>
+<tr>
+  <td><b>University of Provence</b>, Marseille France</td>
+  <td>B.A. in English and Spanish</td>
+  <td> 2009-2011</td>
+</tr>
+</table>
+
+
+
+
+<h2><b>TECHNICAL SKILLS</b></h2> 
+
+<b>Languages/Software:</b><br>
+Advanced: Python, R, Stata, ArcGIS<br>
+Basic: Matlab, Julia, STAN
+
+
+<b>Data Science Tools:</b><br>
+Advanced: Github version control, Web Scraping, Object Oriented Programming 
+Basic: Docker, NLP, Network Analysis, Machine Learning, Cloud Computing
+
+
+<h2><b>ACADEMIC WORK EXPERIENCE</b></h2> 
+
+Research assistant (2018-2020)<br>
+Is China Building a More China-centered World?, project by [Jason Garred](http://web5.uottawa.ca/www5/jasongarred/index.html) and [Samuel Marden](http://www.samuelmarden.com/)
+
+
+
+<h2><b>LANGUAGES</b></h2> 
+French: Native<br>
+English: Fluent<br>
+Spanish: Intermediate<br>
+Portuguese: Intermediate<br>
+
+
+<h2><b>NON-ACADEMIC EXPERIENCE</b></h2> 
+
+President of the Graduate Economics Student Association of the University of Ottawa, (2018-2019)<br>
+Academic affairs, grants and social activities
+
+
+Researcher in Politics and Economics, Think Tank Different 2014-2015, Paris, France <br>
+Research on racial and gender discrimination 
+
+Business Assistant, UMedia (2012), Brussels, Belgium<br>
+Movie production company, (internship)
+
+Entrepreneur, Cedre de l'Atlas, 2011, Marrakesh, Morocco<br>
+Ecological cleaning products
+
+
+Semi-professional Dancer, (2000-2009) <br>
+Dancesport
+</font>
+
+

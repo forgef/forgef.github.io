@@ -1,0 +1,24 @@
+name: "Fabien Forge"
+output_dir: "."
+navbar:
+  title: "Fabien Forge"
+  left:
+    - text: "Research"
+      href: research.html
+    - text: "CV"
+      href: CV.html
+    - text: "Teaching"
+      href: teaching.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: fforg097@uottawa.ca
+    - icon: fa-github fa-lg
+      href: https://github.com/forgef
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/forgef_
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/fabienforge/
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
