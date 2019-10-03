@@ -17,7 +17,7 @@ contact: fforg097@uottawa.ca
 <center>
 <h3>Graduate Studies</h3> 
 
-<font size="3">
+<font size="2">
 <table style="width:100%">
     <tr>
     <td><b>University of Ottawa</b></td>
@@ -35,7 +35,7 @@ contact: fforg097@uottawa.ca
   <tr>
     <td><b>University of California Berkeley, Haas School of Business</b></td>
     <td>Visiting Ph.D. student</td>
-    <td> 2019</td>
+    <td>Fall 2019</td>
 </tr>
  <tr>
 <td bgcolor="#FFFFFF" style="line-height:10px;" colspan=3>&nbsp;</td>
