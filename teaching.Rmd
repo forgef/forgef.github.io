@@ -6,8 +6,8 @@ output: html_document
 <br>
 
 
-<font size="3">[<b>ECO 2121 Economics of Globalization </b>](https://catalogue.uottawa.ca/en/courses/eco/), winter 2020</font> <br>
-Second-year undergraduate course on the world economy.
+<font size="3">[<b>ECO 3151 Econometrics </b>](https://catalogue.uottawa.ca/en/courses/eco/), winter 2020</font> <br>
+Introduction to Econometrics (undergraduate)
 <br>
 
 <font size="3">[<b>Data Science for Economists Workshop </b>](), winter 2019</font> <br>

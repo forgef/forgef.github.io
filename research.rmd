@@ -6,20 +6,27 @@
 
 ## Work in Progress
 
-(Drafts available upon request)<br>
-
-
- <font size="3">[<b>Climate Change and the Distribution of Agricultural Output </b>]()</font> <br>
-Previously presented under the title: Hedging Climate Change: Yield Volatility, Crop Choice and Trade <br>
-
+ <font size="3">[<b>Climate Change and the Distribution of Agricultural Output </b>](CFGP_climate_20191222.pdf)</font> <br>
 with [Francisco Costa](https://sites.google.com/site/fjmcosta/), [Jason Garred](http://web5.uottawa.ca/www5/jasongarred/index.html) and [Joao Paulo Pessoa](https://sites.google.com/site/joaopaulocnpessoa/).
 
-<div style="text-align: justify">Climate change may affect farmers not only by altering the expected productivity of each crop they grow, but also by changing the year-to-year volatility of their output.  This paper uses a multi-run climate projection model to examine the potential impact of changes in the distribution of weather outcomes on the distribution of agricultural output for farmers in India.  We project that Indian farmers will face steep declines in mean agricultural output, with large negative consequences for welfare.  Previously rare extremely low outcome draws (1-in-100 years) are projected to become the norm by the end of the 21st century.  As a result, our analysis suggests that the negative welfare impact of climate change on the mean may far outweigh the volatility risks.</div>
+<div style="text-align: justify">Climate change may affect farmers not only by altering the expected productivity
+of each crop they grow, but also by changing the year-to-year volatility of their output.
+This paper uses a multi-run climate projection model to examine the potential impact
+of climate change on the distribution of agricultural outcomes in India. Our analysis
+suggests that the negative impact of the evolving climate on the mean may present a
+more urgent problem than changes in yield variability. Previously rare weather draws
+resulting in poor agricultural outcomes (1-in-100 years) are projected to become the
+norm, increasing by 53 to 88 percentage points by the end of the 21st century. As a
+result, we predict that Indian farmers will face a 16% to 33% decline in mean agricultural
+revenue over the course of the century. Analysis using a structural general equilibrium
+model with portfolio choice suggests consequences of a similar magnitude for welfare</div>
 <br>
 
-<font size="3">[<b>When are Tariff Cuts Not Enough? Heterogeneous Effects of Trade Preferences for the Least Developed Countries</b>]()</font> 
+<font size="3">[<b>When are Tariff Cuts Not Enough? Heterogeneous Effects of Trade Preferences for the Least Developed Countries</b>]()</font> <br>
+with [Jason Garred](http://web5.uottawa.ca/www5/jasongarred/index.html) and Kyae Lim Kwon <br>
+[Draft available upon request] <br>
 
-with [Jason Garred](http://web5.uottawa.ca/www5/jasongarred/index.html) and Kyae Lim Kwon
+
 
 <div style="text-align: justify">
 We study the impact of a large set of recent reforms to trade preferences for the least developed countries (LDCs).  In the late 1990s and early 2000s, OECD countries greatly expanded their LDC trade preference programs, cutting tariffs on imports from LDCs to zero for a wide range of products.  We show that these tariff reductions had a small positive average effect, but also that the breadth of their impact was strikingly limited.  New export relationships (by importer-exporter-product) were stimulated only in cases with previous 'export experience', where countries already exported the same product to an OECD country or exported a similar product to the same importer.  Tariff cuts for LDCs thus led to increases in trade flow survival and `sequential exporting', but made no other progress in reducing the overwhelming prevalence of zero trade flows in LDCs' export portfolios.
@@ -27,6 +34,6 @@ We study the impact of a large set of recent reforms to trade preferences for th
  </div>
 <br>
 
-<font size="3">[<b>CCTs and Fertility: Long-Term Impacts Across Two Generations</b>]()</font> 
-
+<font size="3">[<b>CCTs and Fertility: Long-Term Impacts Across Two Generations</b>]()</font> <br>
+[Draft available upon request]
 <div style="text-align: justify">The Mexican conditional cash transfer program Progresa, started in 1997, has been found to have positively impacted many aspects of the lives of the poor in Mexico both in the short and long run. The few studies that used the initial randomization over the first 18 to 24 months failed to observe any change in fertility decisions. Using the IPUMS census survey, I construct two cohorts of women that I observe in 2010, 13 years after the program started. The older cohort mainly benefited from a reduction in the cost of quality of their children, while the younger cohort benefited, in addition, from a schooling treatment on themselves. The results from a difference-in-difference identification strategy suggest a significant negative effect on fertility in a fashion consistent with what Becker’s quality-quantity trade-off model predicts. Although, both cohorts reduced their fertility, no additional effect was found on the fertility of the younger cohort in the early part of their fertility window </div>
