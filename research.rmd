@@ -6,7 +6,7 @@
 
 ## Work in Progress
 
- <font size="3">[<b>Climate Change and the Distribution of Agricultural Output </b>](CFGP_climate_draft202001.pdf)</font> <br>
+ <font size="3">[<b>Climate Change and the Distribution of Agricultural Output </b>](https://osf.io/preprints/socarxiv/yxzfu/)</font> <br>
 with [Francisco Costa](https://sites.google.com/site/fjmcosta/), [Jason Garred](http://web5.uottawa.ca/www5/jasongarred/index.html) and [Joao Paulo Pessoa](https://sites.google.com/site/joaopaulocnpessoa/).
 
 <div style="text-align: justify">Climate change may affect farmers not only by altering the expected productivity
