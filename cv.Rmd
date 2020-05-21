@@ -9,15 +9,15 @@ css: cv_styles.css
 
 
 <h1><font size="10"><b>Fabien Forge</b></font></h1>
-You can download my CV [here](cv.pdf), last update: September 2019
+You can download my CV [here](cv.pdf), last update: May 2020
 
-contact: fforg097@uottawa.ca
+contact: fforge@uottawa.ca
 
 <h2><b>EDUCATION</b></h2> 
 <center>
 <h3>Graduate Studies</h3> 
 
-<font size="2">
+<font size="3">
 <table style="width:100%">
     <tr>
     <td><b>University of Ottawa</b></td>
@@ -25,7 +25,7 @@ contact: fforg097@uottawa.ca
     <td> 2015 - Present</td>
   </tr>
   <tr>
-    <td>Fields:  Environment, Trade, Development </td>
+    <td>Fields:  Environment, Applied Economics </td>
     <td>  </td>
     <td> </td>
   </tr>
@@ -34,7 +34,7 @@ contact: fforg097@uottawa.ca
 </tr>
   <tr>
     <td><b>University of California Berkeley, Haas School of Business</b></td>
-    <td>Visiting Ph.D. student</td>
+    <td>Visiting researcher</td>
     <td>Fall 2019</td>
 </tr>
  <tr>
@@ -55,11 +55,11 @@ contact: fforg097@uottawa.ca
 </tr>
 <tr>
     <td><b>Kedge Business School</b>, Marseille</td>
-    <td>Masters of Science in Business</td>
+    <td>MBA</td>
     <td> 2009-2013</td>
 </tr> 
 <tr>
-    <td>Fields: International Business and Economics</td>
+    <td>Fields: Finance and Economics</td>
     <td> </td>
     <td>  </td>
 </tr> 
@@ -103,15 +103,17 @@ contact: fforg097@uottawa.ca
 
 <b>Languages/Software:</b><br>
 Advanced: Python, R, Stata, ArcGIS<br>
-Basic: Matlab, Julia, STAN
+Basic: Matlab, Julia, STAN, Java
 
 
 <b>Data Science Tools:</b><br>
-Advanced: Github version control, Web Scraping, Object Oriented Programming 
-Basic: Docker, NLP, Network Analysis, Machine Learning, Cloud Computing
+Advanced: Machine Learning,  Github version control, Web Scraping, Object Oriented Programming <br>
+Basic: Docker, NLP, Network Analysis, Cloud Computing
 
 
 <h2><b>ACADEMIC WORK EXPERIENCE</b></h2> 
+
+See also [Teaching](teaching.html)
 
 Research assistant (2018-2020)<br>
 Is China Building a More China-centered World?, project by [Jason Garred](http://web5.uottawa.ca/www5/jasongarred/index.html) and [Samuel Marden](http://www.samuelmarden.com/)

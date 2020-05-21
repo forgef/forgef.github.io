@@ -15,10 +15,10 @@
 
 I am a PhD candidate in economics from the University of Ottawa.<br>
 
-I am currently visiting the Haas School of Business, University of California Berkeley.
+I was a visiting researcher at  the Haas School of Business, University of California Berkeley during the fall 2019.
 
 <b>Research interests:</b> <br>
-I work on issues related to the environment, trade and development.
+I work on issues related to the environment and applied economics.
 <br>
 
 I am also a Python and R enthusiast - this website was created in RStudio.

@@ -4,7 +4,7 @@
 <br>
 <br>
 
-## Work in Progress
+## Working Papers
 
  <font size="3">[<b>Climate Change and the Distribution of Agricultural Output </b>](https://osf.io/preprints/socarxiv/yxzfu/)</font> <br>
 with [Francisco Costa](https://sites.google.com/site/fjmcosta/), [Jason Garred](http://web5.uottawa.ca/www5/jasongarred/index.html) and [Joao Paulo Pessoa](https://sites.google.com/site/joaopaulocnpessoa/).
@@ -27,12 +27,27 @@ with [Jason Garred](http://web5.uottawa.ca/www5/jasongarred/index.html) and Kyae
 [Draft available upon request] <br>
 
 
-
 <div style="text-align: justify">
-We study the impact of a large set of recent reforms to trade preferences for the least developed countries (LDCs).  In the late 1990s and early 2000s, OECD countries greatly expanded their LDC trade preference programs, cutting tariffs on imports from LDCs to zero for a wide range of products.  We show that these tariff reductions had a small positive average effect, but also that the breadth of their impact was strikingly limited.  New export relationships (by importer-exporter-product) were stimulated only in cases with previous 'export experience', where countries already exported the same product to an OECD country or exported a similar product to the same importer.  Tariff cuts for LDCs thus led to increases in trade flow survival and `sequential exporting', but made no other progress in reducing the overwhelming prevalence of zero trade flows in LDCs' export portfolios.
+We study the impact of a large set of recent reforms to trade preferences for the least developed countries (LDCs). In the late 1990s and early 2000s, OECD countries greatly expanded their LDC trade preference programs, cutting tariffs on imports from LDCs to zero for a wide range of products. We show that these tariff reductions had a small positive average effect, but also that the breadth of their impact was strikingly limited. New export relationships (by importer-exporter-product) were stimulated only in cases with previous 'export experience', where countries already exported the same product to an OECD country or exported a similar product to the same importer. Tariff cuts for LDCs thus led to increases in trade flow survival and 'sequential exporting', but made no other progress in reducing the overwhelming prevalence of zero trade flows in LDCs' export portfolios.
 
  </div>
 <br>
+
+## Work in Progress
+
+<font size="3">[<b>Reactive or Proactive? Capturing Adaptation to Climate Change Using Machine Learning and Behavioral Theories</b>]()</font> <br>
+with [Julia Mink](https://julia-thompson.github.io/Julia-Mink/) <br>
+
+
+<div style="text-align: justify">
+We study the determinents of climate change adaptation using both machine learning and economic theory. For farmers, crop choice is one of the most effective and cheapest way of mitigating the effects of climate change. Yet it is unclear whether farmers' adapt in reaction to past weather realizations or in anticipation of climate change. We attempt to answer this question by testing two theories: one in which farmers are only backward looking and a second in which they are also forward looking.  Since these two behavioral models do not leave in the same parameter space, we follow Fudenberg et al. (2020) and measure how `_complete_' each theory is by comparing their predictive performance to a predictive upper bound defined using machine learning.
+
+
+<font size="3">[<b>US-China Trade Relationship and US pollution emission</b>]()</font> <br>
+
+<div style="text-align: justify">
+After being the champion of trade liberalization, the United States reversed its policy and engaged in protectionist measures particularly targeted at China. Since 2000, the Chinese import competition has significantly influenced the US industrial composition and motivated the 2018 US tariff increase. This paper takes advantage of these diametrically-opposed trade shocks to look at their impact on pollution emissions (CO, NO2, O3, PM10, PM2.5) in the US. First, I empirically examine how US counties have changed their pollution emissions in response to i) a fall in Chinese import prices and ii) recent protectionist measures and retaliatory tariffs. The reduced form identification relies on a weighted average of local exposure to Chinese competition in which weights are determined by counties' industrial composition prior to the shocks. Second, I decompose changes in pollution emissions among the different channels that may be impacted by these shocks. Specifically, in response to changes in comparative advantages, counties may change their levels of economic activity (scale), their type of activities (composition) and the pollution intensity of their production (technique).
+
 
 <font size="3">[<b>CCTs and Fertility: Long-Term Impacts Across Two Generations</b>]()</font> <br>
 [Draft available upon request]
