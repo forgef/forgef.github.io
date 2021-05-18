@@ -1,0 +1,19 @@
+---
+title: "Data Science"
+output: html_document
+---
+
+Will be updated soon
+# [Statistics for Causal Inference](CausalInference.html)
+Half of my empirical work uses causal inference and I taught several classes using causal inference.
+
+# [Deep Learning for Data Collection](MachineLearning.html) 
+I am currently using convolutional neural network and transfer learning to map the evolution of urban tree canopy in large cities in Canada using satellite images
+
+# [Machine Learning for prediction](MachineLearning.html)
+I have several projects using prediction and machine learning tools. I also [taught machine learning](teaching.html) to 4th year undergraduates.
+
+
+# [Geospatial Data](geospatial.html) {#GS}
+A lot of my work uses geospatial information, weather, pollution, tree location etc. and I have used extensively softwares such as arcGIS and Python libraries such as Geopandas, Rasterio, NetCDF, xarray etc.
+

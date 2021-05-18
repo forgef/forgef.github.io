@@ -1,0 +1,14 @@
+---
+title: "Areas of Expertise"
+
+output: html_document
+---
+Will be updated soon
+
+# Environmental Studies
+
+# Trade
+
+# Development
+
+# Health 
