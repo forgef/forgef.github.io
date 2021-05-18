@@ -1,37 +1,51 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title>teaching.utf8.md</title>
+<title>University Courses</title>
 
+<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/ionicons-2.0.1/css/ionicons.min.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -44,32 +58,7 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
@@ -80,10 +69,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -100,40 +85,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 64px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h2 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h3 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h4 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h5 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h6 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -161,7 +119,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -173,7 +131,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -184,10 +142,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -199,7 +170,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -235,6 +205,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -275,10 +246,40 @@ $(document).ready(function () {
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="research.html">Research</a>
-</li>
-<li>
   <a href="cv.html">CV</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Data Science
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="CausalInference.html">Statistics for Causal Inference</a>
+    </li>
+    <li>
+      <a href="MachineLearning.html">Statistics for Prediction</a>
+    </li>
+    <li>
+      <a href="geospatial.html">Geospatial Tools</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Economics - Research
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="research.html">Research Papers</a>
+    </li>
+    <li>
+      <a href="economics.html">Economic Specialties</a>
+    </li>
+  </ul>
 </li>
 <li>
   <a href="teaching.html">Teaching</a>
@@ -286,26 +287,26 @@ $(document).ready(function () {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="email.html">
-    <span class="fa fa-envelope fa-lg"></span>
+  <a href="mailto:fforge@uottawa.ca">
+    <span class="fas fa-envelope fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://github.com/forgef">
-    <span class="fa fa-github fa-lg"></span>
+    <span class="fab fa-github"></span>
      
   </a>
 </li>
 <li>
   <a href="https://twitter.com/forgef_">
-    <span class="fa fa-twitter fa-lg"></span>
+    <span class="ion ion-social-twitter"></span>
      
   </a>
 </li>
 <li>
   <a href="https://www.linkedin.com/in/fabienforge/">
-    <span class="fa fa-linkedin fa-lg"></span>
+    <span class="fab fa-linkedin"></span>
      
   </a>
 </li>
@@ -314,19 +315,51 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
+<h1 class="title toc-ignore">University Courses</h1>
 
 </div>
 
 
-<p><br> <br> <br></p>
-<p><font size="3"><a href="https://catalogue.uottawa.ca/en/courses/eco/"><b>ECO 3151 Econometrics </b></a>, winter 2020</font> <br> Introduction to Econometrics (undergraduate) <br></p>
-<p><font size="3"><a href=""><b>Data Science for Economists Workshop </b></a>, winter 2019</font> <br> Introduction to R and Python with an emphasis on comparison with Stata <br></p>
-<p><font size="3"><a href="https://catalogue.uottawa.ca/en/courses/eco/"><b>ECO 2117 Introduction to Development Economics </b></a>, winter 2019</font> <br> I taught a session on global warming and natural disasters. <br></p>
-<p><font size="3"><a href=""><b>Teaching Assistant </b></a>, 2015-2019</font> <br> Econometrics (Graduate), Economics of Globalization, Intermediate Micro, Intermediate Macro, Intro to Development Economics</p>
+<p>For details on any of these courses click on the dropdown arrow. <br></p>
+<font size="3"><b>Data Science for Social Scientists</b>, <a href="https://catalogue.uottawa.ca/en/courses/eco/">ECO4199</a>, <b> University of Ottawa</b>, winter 2021</font> <br> Data science and machine learning (Linear models, Logit, Ridge/Lasso, Tree Methods, Unsupervised Learning, Deep Learning) with applications in Python.
+<details>
+<summary>
+Details
+</summary>
+<br> This course is an introduction to open data science tools that social scientists can use to both expand the data they have access to and the type of statistical questions they can answer. In the first half of the course we will first learn how to tidy and visualize structured data then we will explore data mining techniques to create new data. The second half of the course will be dedicated to an introduction to machine learning for classification and regression problems. This course will be taught using Python, but R-users are welcome to submit their work in their preferred language. Technical concepts will be introduced through coding and mathematical formalism will be minimal. Previous experience in any coding language or econometrics is recommended but not required. <br>
+</details>
+<font size="3"><b>Topics in International Development</b>, <a href="https://www.mcgill.ca/isid/files/isid/intd_397-03_professor_fabien_forge_economics_of_environment_and_climate_change_0.pdf">INTD397</a>, <b> McGill University</b>, winter 2021</font> <br> Empirical environmental economics: randomized controlled experiment, panel data analysis, regression discontinuity design, Instrumental Variables.
+<details>
+<summary>
+Details
+</summary>
+This course is designed to introduce students to the issues and practice of environmental economics. The focus will be on the current empirical research interested in the environmental issues of developing economies. Examples of topics include the impact of climate change and pollution on health outcomes, conflict and agriculture as well as adaptation and deforestation. <br>
+</details>
+<font size="3"><b>Health Economics</b>, <a href="https://www.rmc-cmr.ca/en/registrars-office/undergraduate-political-science-economics-courses">ECE246</a>, <b> Royal Military College of Canada </b>, winter and fall 2021</font> <br> Introduction to health economics
+<details>
+<summary>
+Details
+</summary>
+Are people demanding health care the way they demand any other good or services? Are they investing in their health the way they would do other types of investment? When they do, what is a good way of financing it? How can we make sure that the offer of health care services meets what the needs of the population? These are some of the questions that health economics intends to answer. In this course, you will not only learn about the main issues surrounding demand, provision and financing of health care, but also how to use economics to conceptualize them in a simple way. Moreover, we will also learn about the empirical tools, directly inspired by research in modern medicine, that are used in economics. <br>
+</details>
+<font size="3"><b>Econometrics</b>, <a href="https://catalogue.uottawa.ca/en/courses/eco/">ECO3151</a>, <b> University of Ottawa</b>, winter 2020</font> <br> Introduction to Econometrics and causal inference with applications in Stata.
+<details>
+<summary>
+Details
+</summary>
+Definition and scope of econometrics. The simple linear regression model and the method of ordinary least squares. Properties of the estimators. Statistical tests of significance. Problems of omitted variable bias and use of control variables. The multiple regression model and the assumption of conditional mean independence. Heteroskedasticity and robust standard errors. Dummy variables. Time series and panel data analysis.
+</details>
+<p><br></p>
+<div id="other-teaching-experiences" class="section level2">
+<h2>Other teaching experiences</h2>
+<p><font size="3"> <b>Data Science for Economists Workshop </b>, winter 2019</font> <br> Introduction to R and Python for graduate students <br></p>
+<p><font size="3"> <b>Introduction to Development Economics</b>, <a href="https://catalogue.uottawa.ca/en/courses/eco/">ECO2117</a>, winter 2019</font> <br> Guest lecturer on global warming and natural disasters. <br></p>
+<p><font size="3"><b>Teaching Assistant </b>, 2015-2019</font> <br> Econometrics (Graduate), Economics of Globalization, Intermediate Micro, Intermediate Macro, Intro to Development Economics</p>
+</div>
 
 
 
@@ -337,7 +370,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -355,7 +388,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>

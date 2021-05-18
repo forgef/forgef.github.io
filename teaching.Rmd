@@ -1,22 +1,75 @@
 ---
+title: "University Courses"
 output: html_document
 ---
+
+For details on any of these courses click on the dropdown arrow. <br>
+
+<font size="3"><b>Data Science for Social Scientists</b>, [ECO4199](https://catalogue.uottawa.ca/en/courses/eco/), <b> University of Ottawa</b>, winter 2021</font> <br>
+Data science and machine learning (Linear models, Logit, Ridge/Lasso, Tree Methods, Unsupervised Learning, Deep Learning) with applications in Python.
+<details>
+<summary>Details</summary>
 <br>
-<br>
+This course is an introduction to open data science tools that social scientists can use to both
+expand the data they have access to and the type of statistical questions they can answer. In the
+first half of the course we will first learn how to tidy and visualize structured data then we will
+explore data mining techniques to create new data. The second half of the course will be
+dedicated to an introduction to machine learning for classification and regression problems. This
+course will be taught using Python, but R-users are welcome to submit their work in their
+preferred language. Technical concepts will be introduced through coding and mathematical
+formalism will be minimal. Previous experience in any coding language or econometrics is
+recommended but not required. <br>
+</details>
+
+
+<font size="3"><b>Topics in International Development</b>, [INTD397 ](https://www.mcgill.ca/isid/files/isid/intd_397-03_professor_fabien_forge_economics_of_environment_and_climate_change_0.pdf), <b> McGill University</b>, winter 2021</font> <br>
+Empirical environmental economics: randomized controlled experiment, panel data analysis, regression discontinuity design, Instrumental Variables.
+<details>
+<summary>Details</summary>
+This course is designed to introduce students to the issues and practice of environmental economics. The focus
+will be on the current empirical research interested in the environmental issues of developing economies. Examples of topics include the impact of climate change and pollution on health outcomes, conflict and agriculture
+as well as adaptation and deforestation. <br>
+</details>
+
+
+<font size="3"><b>Health Economics</b>, [ECE246](https://www.rmc-cmr.ca/en/registrars-office/undergraduate-political-science-economics-courses), <b> Royal Military College of Canada </b>, winter and fall 2021</font> <br>
+Introduction to health economics
+<details>
+<summary>Details</summary>
+Are people demanding health care the way they demand any other good or services?
+Are they investing in their health the way they would do other types of investment?
+When they do, what is a good way of financing it? How can we make sure that
+the offer of health care services meets what the needs of the population? These
+are some of the questions that health economics intends to answer. In this course,
+you will not only learn about the main issues surrounding demand, provision and
+financing of health care, but also how to use economics to conceptualize them in a
+simple way. Moreover, we will also learn about the empirical tools, directly inspired
+by research in modern medicine, that are used in economics. <br>
+</details>
+
+
+<font size="3"><b>Econometrics</b>, [ECO3151](https://catalogue.uottawa.ca/en/courses/eco/), <b> University of Ottawa</b>, winter 2020</font> <br>
+Introduction to Econometrics and causal inference with applications in Stata.
+<details>
+<summary>Details</summary>
+Definition and scope of econometrics. The simple linear regression model and the method of
+ordinary least squares. Properties of the estimators. Statistical tests of significance. Problems of
+omitted variable bias and use of control variables. The multiple regression model and the
+assumption of conditional mean independence. Heteroskedasticity and robust standard errors.
+Dummy variables. Time series and panel data analysis.
+</details>
 <br>
 
 
-<font size="3">[<b>ECO 3151 Econometrics </b>](https://catalogue.uottawa.ca/en/courses/eco/), winter 2020</font> <br>
-Introduction to Econometrics (undergraduate)
+## Other teaching experiences
+
+<font size="3"> <b>Data Science for Economists Workshop </b>, winter 2019</font> <br>
+Introduction to R and Python for graduate students 
 <br>
 
-<font size="3">[<b>Data Science for Economists Workshop </b>](), winter 2019</font> <br>
-Introduction to R and Python with an emphasis on comparison with Stata
+<font size="3"> <b>Introduction to Development Economics</b>, [ECO2117](https://catalogue.uottawa.ca/en/courses/eco/), winter 2019</font> <br>
+Guest lecturer on global warming and natural disasters.
 <br>
 
-<font size="3">[<b>ECO 2117 Introduction to Development Economics </b>](https://catalogue.uottawa.ca/en/courses/eco/), winter 2019</font> <br>
-I taught a session on global warming and natural disasters.
-<br>
-
-<font size="3">[<b>Teaching Assistant </b>](), 2015-2019</font> <br>
+<font size="3"><b>Teaching Assistant </b>, 2015-2019</font> <br>
 Econometrics (Graduate), Economics of Globalization, Intermediate Micro, Intermediate Macro, Intro to Development Economics

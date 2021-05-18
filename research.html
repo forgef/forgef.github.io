@@ -1,37 +1,51 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title>research.utf8.md</title>
+<title>Academic Research</title>
 
+<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/ionicons-2.0.1/css/ionicons.min.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -44,32 +58,7 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
@@ -80,10 +69,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -100,40 +85,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 64px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h2 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h3 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h4 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h5 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h6 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -161,7 +119,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -173,7 +131,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -184,10 +142,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -199,7 +170,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -235,6 +205,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -275,10 +246,40 @@ $(document).ready(function () {
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="research.html">Research</a>
-</li>
-<li>
   <a href="cv.html">CV</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Data Science
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="CausalInference.html">Statistics for Causal Inference</a>
+    </li>
+    <li>
+      <a href="MachineLearning.html">Statistics for Prediction</a>
+    </li>
+    <li>
+      <a href="geospatial.html">Geospatial Tools</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Economics - Research
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="research.html">Research Papers</a>
+    </li>
+    <li>
+      <a href="economics.html">Economic Specialties</a>
+    </li>
+  </ul>
 </li>
 <li>
   <a href="teaching.html">Teaching</a>
@@ -286,26 +287,26 @@ $(document).ready(function () {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="email.html">
-    <span class="fa fa-envelope fa-lg"></span>
+  <a href="mailto:fforge@uottawa.ca">
+    <span class="fas fa-envelope fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://github.com/forgef">
-    <span class="fa fa-github fa-lg"></span>
+    <span class="fab fa-github"></span>
      
   </a>
 </li>
 <li>
   <a href="https://twitter.com/forgef_">
-    <span class="fa fa-twitter fa-lg"></span>
+    <span class="ion ion-social-twitter"></span>
      
   </a>
 </li>
 <li>
   <a href="https://www.linkedin.com/in/fabienforge/">
-    <span class="fa fa-linkedin fa-lg"></span>
+    <span class="fab fa-linkedin"></span>
      
   </a>
 </li>
@@ -314,40 +315,41 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
+<h1 class="title toc-ignore">Academic Research</h1>
 
 </div>
 
 
-<p><br> <br></p>
-<div id="working-papers" class="section level2">
-<h2>Working Papers</h2>
-<p><font size="3"><a href="https://osf.io/preprints/socarxiv/yxzfu/"><b>Climate Change and the Distribution of Agricultural Output </b></a></font> <br> with <a href="https://sites.google.com/site/fjmcosta/">Francisco Costa</a>, <a href="http://web5.uottawa.ca/www5/jasongarred/index.html">Jason Garred</a> and <a href="https://sites.google.com/site/joaopaulocnpessoa/">Joao Paulo Pessoa</a>.</p>
+<div id="submitted-papers" class="section level2">
+<h2>Submitted Papers</h2>
+<p><font size="3"><a href="https://osf.io/preprints/socarxiv/yxzfu/"><b>Climate Change and the Distribution of Agricultural Output </b></a></font> <br> with <a href="https://sites.google.com/site/fjmcosta/">Francisco Costa</a>, <a href="http://web5.uottawa.ca/www5/jasongarred/index.html">Jason Garred</a> and <a href="https://sites.google.com/site/joaopaulocnpessoa/">Joao Paulo Pessoa</a>. <br> <code>Prediction</code> <code>Risk</code> <code>Uncertainty</code> <code>Climate Change</code> <code>Theory</code></p>
 <div style="text-align: justify">
 Climate change may affect farmers not only by altering the expected productivity of each crop they grow, but also by changing the year-to-year volatility of their output. This paper uses a multi-run climate projection model to examine the potential impact of climate change on the distribution of agricultural outcomes in India. Our analysis suggests that the negative impact of the evolving climate on the mean may present a more urgent problem than changes in yield variability. Previously rare weather draws resulting in poor agricultural outcomes (1-in-100 years) are projected to become the norm, increasing by 53 to 88 percentage points by the end of the 21st century. As a result, we predict that Indian farmers will face a 16% to 33% decline in mean agricultural revenue over the course of the century. Analysis using a structural general equilibrium model with portfolio choice suggests consequences of a similar magnitude for welfare
 </div>
 <p><br></p>
-<p><font size="3"><a href=""><b>When are Tariff Cuts Not Enough? Heterogeneous Effects of Trade Preferences for the Least Developed Countries</b></a></font> <br> with <a href="http://web5.uottawa.ca/www5/jasongarred/index.html">Jason Garred</a> and Kyae Lim Kwon <br> [Draft available upon request] <br></p>
+<p><font size="3"><a href=""><b>When are Tariff Cuts Not Enough? Heterogeneous Effects of Trade Preferences for the Least Developed Countries</b></a></font> <br> with <a href="http://web5.uottawa.ca/www5/jasongarred/index.html">Jason Garred</a> and Kyae Lim Kwon <br> [Draft available upon request] <br> <code>Causal inference</code> <code>Data Mining</code> <code>Trade</code></p>
 <div style="text-align: justify">
 <p>We study the impact of a large set of recent reforms to trade preferences for the least developed countries (LDCs). In the late 1990s and early 2000s, OECD countries greatly expanded their LDC trade preference programs, cutting tariffs on imports from LDCs to zero for a wide range of products. We show that these tariff reductions had a small positive average effect, but also that the breadth of their impact was strikingly limited. New export relationships (by importer-exporter-product) were stimulated only in cases with previous ‘export experience’, where countries already exported the same product to an OECD country or exported a similar product to the same importer. Tariff cuts for LDCs thus led to increases in trade flow survival and ‘sequential exporting’, but made no other progress in reducing the overwhelming prevalence of zero trade flows in LDCs’ export portfolios.</p>
+</div>
+<p><br></p>
+<p><font size="3"><a href="CCTs_and_Fertility__Long_Term_Impacts_Across_Two_Generations_JHR.pdf"><b>CCTs and Fertility: Long-Term Impacts Across Two Generations</b></a></font> <br> <code>Causal inference</code> <code>Policy evaluation</code> <code>Health</code> <code>Theory</code></p>
+<div style="text-align: justify">
+The Mexican conditional cash transfer program Progresa, started in 1997, has been found to have positively impacted many aspects of the lives of the poor in Mexico both in the short and long run. The few studies that used the initial randomization over the first 18 to 24 months failed to observe any change in fertility decisions. Using the IPUMS census survey, I construct two cohorts of women that I observe in 2010, 13 years after the program started. The older cohort mainly benefited from a reduction in the cost of quality of their children, while the younger cohort benefited, in addition, from a schooling treatment on themselves. The results from a difference-in-difference identification strategy suggest a significant negative effect on fertility in a fashion consistent with what Becker’s quality-quantity trade-off model predicts. Although, both cohorts reduced their fertility, no additional effect was found on the fertility of the younger cohort in the early part of their fertility window
 </div>
 <p><br></p>
 </div>
 <div id="work-in-progress" class="section level2">
 <h2>Work in Progress</h2>
-<p><font size="3"><a href=""><b>Reactive or Proactive? Capturing Adaptation to Climate Change Using Machine Learning and Behavioral Theories</b></a></font> <br> with <a href="https://julia-thompson.github.io/Julia-Mink/">Julia Mink</a> <br></p>
+<p><font size="3"><a href=""><b>Reactive or Proactive? Capturing Adaptation to Climate Change Using Machine Learning and Behavioral Theories</b></a></font> <br> with <a href="https://julia-thompson.github.io/Julia-Mink/">Julia Mink</a> <br> <code>Machine Learning</code> <code>Behavior</code> <code>Theory</code> <code>Adaptation</code> <code>Climate Change</code></p>
 <div style="text-align: justify">
-<p>We study the determinents of climate change adaptation using both machine learning and economic theory. For farmers, crop choice is one of the most effective and cheapest way of mitigating the effects of climate change. Yet it is unclear whether farmers’ adapt in reaction to past weather realizations or in anticipation of climate change. We attempt to answer this question by testing two theories: one in which farmers are only backward looking and a second in which they are also forward looking. Since these two behavioral models do not leave in the same parameter space, we follow Fudenberg et al. (2020) and measure how `<em>complete</em>’ each theory is by comparing their predictive performance to a predictive upper bound defined using machine learning.</p>
-<p><font size="3"><a href=""><b>US-China Trade Relationship and US pollution emission</b></a></font> <br></p>
+<p>We study the determinents of climate change adaptation using both machine learning and economic theory. For farmers, crop choice is one of the most effective and cheapest way of mitigating the effects of climate change. Yet it is unclear whether farmers’ adapt in reaction to past weather realizations or in anticipation of climate change. We attempt to answer this question by testing two theories: one in which farmers are only backward looking and a second in which they are also forward looking. Since these two behavioral models do not leave in the same parameter space, we follow Fudenberg et al. (2020) and measure how `<em>complete</em>’ each theory is by comparing their predictive performance to a predictive upper bound defined using machine learning.</p>
+<font size="3"><a href=""><b>US-China Trade Relationship and US pollution emission</b></a></font> <br> <code>Causal inference</code> <code>Trade</code> <code>Pollution</code> <br>
 <div style="text-align: justify">
 <p>After being the champion of trade liberalization, the United States reversed its policy and engaged in protectionist measures particularly targeted at China. Since 2000, the Chinese import competition has significantly influenced the US industrial composition and motivated the 2018 US tariff increase. This paper takes advantage of these diametrically-opposed trade shocks to look at their impact on pollution emissions (CO, NO2, O3, PM10, PM2.5) in the US. First, I empirically examine how US counties have changed their pollution emissions in response to i) a fall in Chinese import prices and ii) recent protectionist measures and retaliatory tariffs. The reduced form identification relies on a weighted average of local exposure to Chinese competition in which weights are determined by counties’ industrial composition prior to the shocks. Second, I decompose changes in pollution emissions among the different channels that may be impacted by these shocks. Specifically, in response to changes in comparative advantages, counties may change their levels of economic activity (scale), their type of activities (composition) and the pollution intensity of their production (technique).</p>
-<font size="3"><a href=""><b>CCTs and Fertility: Long-Term Impacts Across Two Generations</b></a></font> <br> [Draft available upon request]
-<div style="text-align: justify">
-The Mexican conditional cash transfer program Progresa, started in 1997, has been found to have positively impacted many aspects of the lives of the poor in Mexico both in the short and long run. The few studies that used the initial randomization over the first 18 to 24 months failed to observe any change in fertility decisions. Using the IPUMS census survey, I construct two cohorts of women that I observe in 2010, 13 years after the program started. The older cohort mainly benefited from a reduction in the cost of quality of their children, while the younger cohort benefited, in addition, from a schooling treatment on themselves. The results from a difference-in-difference identification strategy suggest a significant negative effect on fertility in a fashion consistent with what Becker’s quality-quantity trade-off model predicts. Although, both cohorts reduced their fertility, no additional effect was found on the fertility of the younger cohort in the early part of their fertility window
-</div>
 </div>
 
 
@@ -359,7 +361,7 @@ The Mexican conditional cash transfer program Progresa, started in 1997, has bee
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -377,7 +379,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
