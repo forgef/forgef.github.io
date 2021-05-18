@@ -1,17 +1,10 @@
 ---
+title: "Résumé"
 css: cv_styles.css
 ---
 
+You can open my CV in PDF [here](cv.pdf)
 
-
-
-<br>
-
-
-<h1><font size="10"><b>Fabien Forge</b></font></h1>
-You can download my CV [here](cv.pdf), last update: May 2020
-
-contact: fforge@uottawa.ca
 
 <h2><b>EDUCATION</b></h2> 
 <center>
@@ -21,17 +14,27 @@ contact: fforge@uottawa.ca
 <table style="width:100%">
     <tr>
     <td><b>University of Ottawa</b></td>
-    <td>Ph.D. in Economics</td>
-    <td> 2015 - Present</td>
+    <td><b>Ph.D. in Economics</b></td>
+    <td> 2015 - 2020</td>
   </tr>
   <tr>
-    <td>Fields:  Environment, Applied Economics </td>
+    <td>Specialization: Applied Economics, Machine Learning and Environment </td>
     <td>  </td>
-    <td> </td>
+    <td></td>
   </tr>
+ <tr> 
+
+<td colspan="3">  <details>
+<summary>Details</summary>
+I hold a PhD in economics with a specialization in microeconomics applied to environmental, trade and development issues. I have been using a variety of statistical tools for causal identification and prediction (machine learning) as well as other data science tools for data mining and geospatial analysis.
+<br>
+You can learn more about my [academic research](research.html) or my [data science work](datascience.html).
+</details> </td>
+</tr>
   <tr>
 <td bgcolor="#FFFFFF" style="line-height:10px;" colspan=3>&nbsp;</td>
 </tr>
+
   <tr>
     <td><b>University of California Berkeley, Haas School of Business</b></td>
     <td>Visiting researcher</td>
@@ -42,7 +45,7 @@ contact: fforge@uottawa.ca
 </tr>
 <tr>
     <td><b>University of Grenoble Alps</b></td>
-    <td>Masters in Economics</td>
+    <td><b>Masters in Economics</b></td>
     <td> 2013-2014</td>
 </tr> 
 <tr>
@@ -55,7 +58,7 @@ contact: fforge@uottawa.ca
 </tr>
 <tr>
     <td><b>Kedge Business School</b>, Marseille</td>
-    <td>MBA</td>
+    <td><b>MBA</b></td>
     <td> 2009-2013</td>
 </tr> 
 <tr>
@@ -83,7 +86,7 @@ contact: fforge@uottawa.ca
 <table style="width:100%">
 <tr>
     <td><b>University of Grenoble Alps</b></td>
-    <td>B.A. in Economics</td>
+    <td><b>B.A. in Economics</b></td>
     <td> 2011-2012</td>
 </tr> 
 <tr>
@@ -91,12 +94,10 @@ contact: fforge@uottawa.ca
 </tr>
 <tr>
   <td><b>University of Provence</b>, Marseille France</td>
-  <td>B.A. in English and Spanish</td>
+  <td><b>B.A. in English and Spanish</b></td>
   <td> 2009-2011</td>
 </tr>
 </table>
-
-
 
 
 <h2><b>TECHNICAL SKILLS</b></h2> 

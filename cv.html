@@ -1,37 +1,51 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title>cv.utf8.md</title>
+<title>Résumé</title>
 
+<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/ionicons-2.0.1/css/ionicons.min.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -44,32 +58,7 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
@@ -80,10 +69,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -100,40 +85,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 64px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h2 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h3 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h4 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h5 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h6 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -161,7 +119,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -173,7 +131,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -184,10 +142,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -199,7 +170,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -235,6 +205,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -275,10 +246,40 @@ $(document).ready(function () {
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="research.html">Research</a>
-</li>
-<li>
   <a href="cv.html">CV</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Data Science
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="CausalInference.html">Statistics for Causal Inference</a>
+    </li>
+    <li>
+      <a href="MachineLearning.html">Statistics for Prediction</a>
+    </li>
+    <li>
+      <a href="geospatial.html">Geospatial Tools</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Economics - Research
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="research.html">Research Papers</a>
+    </li>
+    <li>
+      <a href="economics.html">Economic Specialties</a>
+    </li>
+  </ul>
 </li>
 <li>
   <a href="teaching.html">Teaching</a>
@@ -286,26 +287,26 @@ $(document).ready(function () {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="email.html">
-    <span class="fa fa-envelope fa-lg"></span>
+  <a href="mailto:fforge@uottawa.ca">
+    <span class="fas fa-envelope fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://github.com/forgef">
-    <span class="fa fa-github fa-lg"></span>
+    <span class="fab fa-github"></span>
      
   </a>
 </li>
 <li>
   <a href="https://twitter.com/forgef_">
-    <span class="fa fa-twitter fa-lg"></span>
+    <span class="ion ion-social-twitter"></span>
      
   </a>
 </li>
 <li>
   <a href="https://www.linkedin.com/in/fabienforge/">
-    <span class="fa fa-linkedin fa-lg"></span>
+    <span class="fab fa-linkedin"></span>
      
   </a>
 </li>
@@ -314,20 +315,16 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
+<h1 class="title toc-ignore">Résumé</h1>
 
 </div>
 
 
-<p><br></p>
-<h1>
-<font size="10"><b>Fabien Forge</b></font>
-</h1>
-<p>You can download my CV <a href="cv.pdf">here</a>, last update: May 2020</p>
-<p>contact: <a href="mailto:fforge@uottawa.ca" class="email">fforge@uottawa.ca</a></p>
+<p>You can open my CV in PDF <a href="cv.pdf">here</a></p>
 <h2>
 <b>EDUCATION</b>
 </h2>
@@ -342,19 +339,29 @@ Graduate Studies
 <b>University of Ottawa</b>
 </td>
 <td>
-Ph.D. in Economics
+<b>Ph.D. in Economics</b>
 </td>
 <td>
-2015 - Present
+2015 - 2020
 </td>
 </tr>
 <tr>
 <td>
-Fields: Environment, Applied Economics
+Specialization: Applied Economics, Machine Learning and Environment
 </td>
 <td>
 </td>
 <td>
+</td>
+</tr>
+<tr>
+<td colspan="3">
+<details>
+<summary>
+Details
+</summary>
+I hold a PhD in economics with a specialization in microeconomics applied to environmental, trade and development issues. I have been using a variety of statistical tools for causal identification and prediction (machine learning) as well as other data science tools for data mining and geospatial analysis. <br> You can learn more about my <a href="research.html">academic research</a> or my <a href="datascience.html">data science work</a>.
+</details>
 </td>
 </tr>
 <tr>
@@ -383,7 +390,7 @@ Fall 2019
 <b>University of Grenoble Alps</b>
 </td>
 <td>
-Masters in Economics
+<b>Masters in Economics</b>
 </td>
 <td>
 2013-2014
@@ -408,7 +415,7 @@ Fields: Political Economy and International Economics
 <b>Kedge Business School</b>, Marseille
 </td>
 <td>
-MBA
+<b>MBA</b>
 </td>
 <td>
 2009-2013
@@ -459,7 +466,7 @@ Undergraduate Studies
 <b>University of Grenoble Alps</b>
 </td>
 <td>
-B.A. in Economics
+<b>B.A. in Economics</b>
 </td>
 <td>
 2011-2012
@@ -475,7 +482,7 @@ B.A. in Economics
 <b>University of Provence</b>, Marseille France
 </td>
 <td>
-B.A. in English and Spanish
+<b>B.A. in English and Spanish</b>
 </td>
 <td>
 2009-2011
@@ -514,7 +521,7 @@ B.A. in English and Spanish
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -532,7 +539,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
