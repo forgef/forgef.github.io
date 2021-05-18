@@ -1,0 +1,15 @@
+---
+title: "Causal Inference"
+output: html_document
+---
+
+Many of the research projects I have worked on and many of the courses that I have taught have their heart causal inference. I am passionate about this aspect of statistics because it mixes technical considerations with intuitions. What constitutes a convincing identification strategy is rarely rooted in fancy statistical tools but a well thought of understanding of the underlying process. Below are a few examples of me using or teaching these tools.
+
+### Causal inference in my research
+Will be updated soon
+
+### Causal inference in my teaching
+Will be updated soon
+
+### Causal inference outside of academia
+Will be updated soon
