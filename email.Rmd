@@ -1,7 +1,0 @@
----
-title: "email"
-output: html_document
----
-
-
-contact: <a href = "mailto: fforg097@uottawa.ca">fforg097@uottawa.ca</a>
