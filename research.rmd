@@ -22,13 +22,12 @@ revenue over the course of the century. Analysis using a structural general equi
 model with portfolio choice suggests consequences of a similar magnitude for welfare</div>
 <br>
 
-<font size="3">[<b>When are Tariff Cuts Not Enough? Heterogeneous Effects of Trade Preferences for the Least Developed Countries</b>]()</font> <br>
+<font size="3">[<b>When are Tariff Cuts Not Enough? Heterogeneous Effects of Trade Preferences for the Least Developed Countries</b>](ForgeGarredKwon2021.pdf)</font> <br>
 with [Jason Garred](http://web5.uottawa.ca/www5/jasongarred/index.html) and Kyae Lim Kwon <br>
-[Draft available upon request] <br>
 `Causal inference` `Data Mining` `Trade` 
 
 <div style="text-align: justify">
-We study the impact of a large set of recent reforms to trade preferences for the least developed countries (LDCs). In the late 1990s and early 2000s, OECD countries greatly expanded their LDC trade preference programs, cutting tariffs on imports from LDCs to zero for a wide range of products. We show that these tariff reductions had a small positive average effect, but also that the breadth of their impact was strikingly limited. New export relationships (by importer-exporter-product) were stimulated only in cases with previous 'export experience', where countries already exported the same product to an OECD country or exported a similar product to the same importer. Tariff cuts for LDCs thus led to increases in trade flow survival and 'sequential exporting', but made no other progress in reducing the overwhelming prevalence of zero trade flows in LDCs' export portfolios.
+Poor countries export a remarkably narrow range of products.  To what extent have trade preferences targeted to the least developed countries (LDCs) changed this situation?  We study a large set of recent reforms to the LDC trade preferences offered by OECD countries.  Leveraging trade policy variation by importer, exporter, product and year, we show that tariff reductions have increased the prevalence of positive trade flows.  However, new flows have been far more likely to emerge in cases with previous `export experience', i.e.\ where countries already exported the same product to another OECD country, or exported a related product to the same importer.  So this wave of tariff cuts for LDCs has resulted in an extension of existing patterns of trade rather than wider export diversification.
 
  </div>
 <br>
