@@ -3,6 +3,18 @@ title: "Academic Research"
 output: html_document
 ---
 
+<b>Postdoctoral surpervisor</b> <br>
+[Nicholas Rivers](https://sites.google.com/site/nicholasjrivers/) <br>
+
+<b>Ph.D. committee:</b> <br>
+<div style="text-align: justify">
+[Jason Garred](http://web5.uottawa.ca/www5/jasongarred/index.html) (co-supervisor) <br>
+[Abel Brodeur](https://sites.google.com/site/abelbrodeur/home?authuser=0) (co-supervisor) <br>
+[Carolyn Fischer](https://www.rff.org/people/carolyn-fischer/)<br>
+[Anthony Heyes](https://anthonyheyes.wordpress.com/)<br>
+[Maya Papineau](https://sites.google.com/site/mayapapineau/home)
+</div>
+
 ## Submitted Papers
 
  <font size="3">[<b>Climate Change and the Distribution of Agricultural Output </b>](https://osf.io/preprints/socarxiv/yxzfu/)</font> <br>
