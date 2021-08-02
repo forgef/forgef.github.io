@@ -1,12 +1,193 @@
 ---
-title: "Résumé"
+title: "Resume"
 css: cv_styles.css
 ---
 
 You can open my CV in PDF [here](cv.pdf)
 
+Jump to <a href="#work">Work Experience</a>, <a href="#education">Education</a> or <a href="#tech">Technical Skills</a>
 
+<a id="work">
+
+<h2><b>WORK EXPERIENCE</b></h2>
+</a>
+
+<font size="3">
+<table style="width:100%">
+    <tr>
+    <td><b>University of Ottawa -- Applied Statistics and Machine Learning</b></td>
+    <td>Ottawa, Canada</td>
+  </tr>
+  <tr>
+    <td>Postdoctoral researcher </td>
+    <td>Jan 2021 - Dec 2021  </td>
+  </tr>
+ <tr> 
+ <td colspan="3">  <details>
+<summary>Details</summary>
+- **Research domain**: what are the impact of weather and trees on socioeconomic outcomes in Canada?
+- **Deep learning**: I use deep learning and transfer learning to perform remote sensing and map the evolution of urban tree canopy in Canada over the last 15 years
+- **Weather satellite data**: I map daily weather data to all Canadian municipalities
+- **Causal inference**: I use plausible exogenous variations in tree cover following the random expansion of the emerald ash borer to measure the impact of trees on confidential health and income data
+- **Relevant tools used**: Python, R, Tensorflow 2.0, arcGIS, Pandas, Geopandas,  xarray,  fixest...
+<br>
+</details> </td>
+</tr>
+    <tr>
+    <td><b>University of Ottawa -- Data Science and Machine Learning</b></td>
+    <td>Ottawa, Canada</td>
+  </tr>
+  <tr>
+    <td>Part-time professor </td>
+    <td>Jan 2021 - Dec 2021  </td>
+  </tr>
+ <tr> 
+ <td colspan="3">  <details>
+<summary>Details</summary>
+- Design and teaching of 4<sup>th</sup> year course 
+- Data science techniques, statistical modelling and machine learning 
+- Linear and non-linear modelling, supervised and unsupervised learning, regression and classification <br>
+(Least squares, Probit/Logit, Ridge/LASSO, Tree methods, K-means, PCA, Deep Learning)
+- Statistical learning and social biases
+- Applications in Python <br>
+(Scikit-Learn, Tensorflow, PyCaret, Statsmodels, Scipy, Pandas, Matplotlib, Seaborn,...)
+- Course taught for 2 semesters because of its popularity!
+<br>
+</details> </td>
+</tr>
+
+<tr>
+  <td><b>McGill University -- Quantitative Methods</b></td>
+  <td>Montreal, Canada</td>
+</tr>
+<tr>
+  <td>Part-time professor </td>
+  <td>Sep 2021 - Dec 2021 </td>
+</tr>
+<tr> 
+ <td colspan="3">  <details>
+  <summary>Details</summary>
+- Design and teaching of 3<sup>rd</sup> year course
+- Methods of causal inference <br>
+(Randomized controlled experiments, difference-in-difference, panel, RDD, IV, matching...)
+- Applications in R (tidyverse, ggplot2, plm, fixest...)
+- Probability, statistics and sample properties of estimators
+<br>
+</details> </td>
+
+
+<tr>
+  <td><b>Royal Military College -- Health Economics</b></td>
+  <td>Remote, Canada</td>
+</tr>
+<tr>
+  <td>Part-time professor </td>
+  <td>Jan 2021 - Dec 2021 </td>
+</tr>
+<tr> 
+ <td colspan="3">  <details>
+  <summary>Details</summary>
+- Introduction to health economics (course design and online teaching).
+- Microeconomic theory of health markets and their agents
+(Randomized controlled experiments, difference-in-difference, panel, RDD, IV, matching...)
+</details> </td>
+
+<tr>
+  <td><b>McGill University -- Applied Environmental Economics</b></td>
+  <td>Montreal, Canada</td>
+</tr>
+<tr>
+  <td>Part-time professor </td>
+  <td>Sep 2021 - Dec 2021 </td>
+</tr>
+<tr> 
+ <td colspan="3">  <details>
+  <summary>Details</summary>
+- Design and teaching of 3<sup>rd</sup> year course
+- Introduction to quantitative methods used in environmental economics<br>
+(RCT, RDD, IV, Panel Data and Lab experiments) 
+- Research design and interpratation of statistical results 
+</details> </td>
+
+<tr>
+  <td><b>University of Ottawa -- Econometrics</b></td>
+  <td>Montreal, Canada</td>
+</tr>
+<tr>
+  <td>Part-time professor </td>
+  <td>Jan 2020 - May 2020 </td>
+</tr>
+<tr> 
+ <td colspan="3">  <details>
+  <summary>Details</summary>
+- Design and teaching of 3<sup>rd</sup> year course in
+- Methods, conditions and interpretation of causal inference
+- Theory and properties of linear estimators
+- Applications in Stata
+</details> </td>
+
+
+<tr>
+  <td><b>University of Ottawa - Research Coordinator</b></td>
+  <td>Ottawa, Canada</td>
+</tr>
+<tr>
+  <td>Part-time professor </td>
+  <td>Jan 2020 - May 2020 </td>
+</tr>
+<tr>
+ <td colspan="3">  <details>
+  <summary>Details</summary>
+- Coordination of 15 research assistants over 2 years
+- Teaching of arcGIS
+- Weekly advancement meeting and mentoring
+</details> </td>
+
+<tr>
+  <td><b>Think Tank Different -- Researcher in Politics and Economics</b></td>
+  <td>Paris, France</td>
+</tr>
+<tr>
+  <td>Researcher </td>
+  <td>2014 - 2015 </td>
+</tr>
+<tr>
+ <td colspan="3">  <details>
+  <summary>Details</summary>
+- Research on racial and gender discrimination in France
+- Production of reports for the French government
+</details> </td>
+
+<tr>
+  <td><b>uMedia -- Movie production company</b></td>
+  <td>Brussels, Belgium</td>
+</tr>
+<tr>
+  <td>Business Assistant </td>
+  <td>2013</td>
+</tr>
+<tr>
+ <td colspan="3">  <details>
+  <summary>Details</summary>
+- Research on racial and gender discrimination in France
+- Production of reports for the French government
+</details> </td>
+
+
+</table>
+
+
+
+
+
+
+
+
+
+
+<a id="education">
 <h2><b>EDUCATION</b></h2> 
+</a>
 <center>
 <h3>Graduate Studies</h3> 
 
@@ -19,16 +200,19 @@ You can open my CV in PDF [here](cv.pdf)
   </tr>
   <tr>
     <td>Specialization: Applied Economics, Machine Learning and Environment </td>
-    <td>  </td>
+    <td><i>Nominated for best doctoral thesis</i></td>
     <td></td>
   </tr>
  <tr> 
 
 <td colspan="3">  <details>
 <summary>Details</summary>
-I hold a PhD in economics with a specialization in microeconomics applied to environmental, trade and development issues. I have been using a variety of statistical tools for causal identification and prediction (machine learning) as well as other data science tools for data mining and geospatial analysis.
+- I hold a Ph.D. in economics with a specialization in the two main branches of applied statistics:\\
+causal inference and statistical learning for prediction.
+- I applied these tools to environmental and health issues (see my research work below)
+- In my research, I extensively used data science tools such as Python, R, Google Cloud Computing, Github, Docker... see also <a href="#tech">Technical Skills</a>
 <br>
-You can learn more about my [academic research](research.html) or my [data science work](datascience.html).
+- You can also learn more about my [academic research](research.html) or my [data science work](datascience.html).
 </details> </td>
 </tr>
   <tr>
@@ -37,9 +221,16 @@ You can learn more about my [academic research](research.html) or my [data scien
 
   <tr>
     <td><b>University of California Berkeley, Haas School of Business</b></td>
-    <td>Visiting researcher</td>
+    <td><b>Visiting Researcher</b></td>
     <td>Fall 2019</td>
 </tr>
+<td colspan="3">  <details>
+<summary>Details</summary>
+- I was invited to join the economics department to share my research
+- I participated and presented in their seminars
+</details> </td>
+
+
  <tr>
 <td bgcolor="#FFFFFF" style="line-height:10px;" colspan=3>&nbsp;</td>
 </tr>
@@ -50,7 +241,7 @@ You can learn more about my [academic research](research.html) or my [data scien
 </tr> 
 <tr>
     <td>Fields:  Political Economy and International Economics</td>
-    <td> </td>
+    <td><i> Top 1%</i> </td>
     <td>  </td>
 </tr> 
  <tr>
@@ -63,7 +254,7 @@ You can learn more about my [academic research](research.html) or my [data scien
 </tr> 
 <tr>
     <td>Fields: Finance and Economics</td>
-    <td> </td>
+    <td> Top 1%</i></td>
     <td>  </td>
 </tr> 
 <tr>
@@ -79,7 +270,6 @@ You can learn more about my [academic research](research.html) or my [data scien
     <td> </td>
     <td>  </td>
 </tr> 
-</table>
 
 <h3>Undergraduate Studies</h3> 
 </center>
@@ -99,25 +289,35 @@ You can learn more about my [academic research](research.html) or my [data scien
 </tr>
 </table>
 
-
+<a id="tech">
 <h2><b>TECHNICAL SKILLS</b></h2> 
+</a>
 
-<b>Languages/Software:</b><br>
-Advanced: Python, R, Stata, ArcGIS<br>
-Basic: Matlab, Julia, STAN, Java
-
-
-<b>Data Science Tools:</b><br>
-Advanced: Machine Learning,  Github version control, Web Scraping, Object Oriented Programming <br>
-Basic: Docker, NLP, Network Analysis, Cloud Computing
+<table style="width:100%">
 
 
-<h2><b>ACADEMIC WORK EXPERIENCE</b></h2> 
+<tr>
+  <td><b>Languages/Software</b>, advanced<sup>*</sup>:</td> <td>Python, R, Stata, ArcGIS</td>
+</tr>
+<tr>
+  <td><b>Languages/Software</b>, intermediary<sup>**</sup>:</td> <td>SQL, Matlab, Julia, Java, QGIS</td>
+</tr>
 
-See also [Teaching](teaching.html)
+<tr VALIGN=TOP>
+  <td><b>Data Science Tools</b>, advanced<sup>*</sup>:</td> 
+  <td>
+Machine Learning and Deep Learning<br>
+Causal inference (including A/B testing) <br>
+Data mining and unstructured data<br>
+Cloud Computing (GCP and AWS) <br>
+Github (version control), Web Scraping<br>
+  </b></td>
+</tr>
+<tr>
+  <td><b>Data Science Tools</b>, intermediary<sup>**</sup>:</td> <td>Docker, NLP, Network Analysis</td>
+</tr>
+</table>
 
-Research assistant (2018-2020)<br>
-Is China Building a More China-centered World?, project by [Jason Garred](http://web5.uottawa.ca/www5/jasongarred/index.html) and [Samuel Marden](http://www.samuelmarden.com/)
 
 
 
@@ -128,24 +328,6 @@ Spanish: Intermediate<br>
 Portuguese: Intermediate<br>
 
 
-<h2><b>NON-ACADEMIC EXPERIENCE</b></h2> 
 
-President of the Graduate Economics Student Association of the University of Ottawa, (2018-2019)<br>
-Academic affairs, grants and social activities
-
-
-Researcher in Politics and Economics, Think Tank Different 2014-2015, Paris, France <br>
-Research on racial and gender discrimination 
-
-Business Assistant, UMedia (2012), Brussels, Belgium<br>
-Movie production company, (internship)
-
-Entrepreneur, Cedre de l'Atlas, 2011, Marrakesh, Morocco<br>
-Ecological cleaning products
-
-
-Semi-professional Dancer, (2000-2009) <br>
-Dancesport
-</font>
 
 
