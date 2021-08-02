@@ -316,6 +316,14 @@ Github (version control), Web Scraping<br>
 <tr>
   <td><b>Data Science Tools</b>, intermediary<sup>**</sup>:</td> <td>Docker, NLP, Network Analysis</td>
 </tr>
+<tr>
+<td colspan="2" > 
+
+- advanced<sup>*</sup> means that I used extensively these tools in my daily work and/or taught them
+- intermediary<sup>**</sup> means I would feel comfortable using them fairly quickly in a professional setting
+
+</td>
+</tr>
 </table>
 
 
