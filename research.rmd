@@ -17,8 +17,10 @@ output: html_document
 
 ## Submitted Papers
 
- <font size="3">[<b>Climate Change and the Distribution of Agricultural Output </b>](https://osf.io/preprints/socarxiv/yxzfu/)</font> <br>
-with [Francisco Costa](https://sites.google.com/site/fjmcosta/), [Jason Garred](http://web5.uottawa.ca/www5/jasongarred/index.html) and [Joao Paulo Pessoa](https://sites.google.com/site/joaopaulocnpessoa/). <br>
+
+
+<font size="3">[<b>Climate Change and the Distribution of Agricultural Output </b>](https://osf.io/preprints/socarxiv/yxzfu/)</font> <br>
+with [Francisco Costa](https://sites.google.com/site/fjmcosta/), [Jason Garred](http://web5.uottawa.ca/www5/jasongarred/index.html) and [Joao Paulo Pessoa](https://sites.google.com/site/joaopaulocnpessoa/). __JOB MARKET PAPER__<br>
 `Prediction` `Risk` `Uncertainty` `Climate Change` `Theory`
 
 <div style="text-align: justify">Climate change may affect farmers not only by altering the expected productivity
@@ -34,7 +36,7 @@ revenue over the course of the century. Analysis using a structural general equi
 model with portfolio choice suggests consequences of a similar magnitude for welfare</div>
 <br>
 
-<font size="3">[<b>When are Tariff Cuts Not Enough? Heterogeneous Effects of Trade Preferences for the Least Developed Countries</b>](ForgeGarredKwon2021.pdf)</font> <br>
+<font size="3">[<b>When are Tariff Cuts Not Enough? Heterogeneous Effects of Trade Preferences for the Least Developed Countries</b>](http://web5.uottawa.ca/www5/jasongarred/ForgeGarredKwon2021.pdf)</font> <br>
 with [Jason Garred](http://web5.uottawa.ca/www5/jasongarred/index.html) and Kyae Lim Kwon <br>
 `Causal inference` `Data Mining` `Trade` 
 
@@ -52,12 +54,20 @@ Poor countries export a remarkably narrow range of products.  To what extent hav
 
 ## Work in Progress
 
-<font size="3">[<b>Reactive or Proactive? Capturing Adaptation to Climate Change Using Machine Learning and Behavioral Theories</b>]()</font> <br>
+<font size="3">[<b>High Temperatures and Vulnerabilities</b>]()</font> <br>
+with [Nicholas Rivers](https://sites.google.com/site/nicholasjrivers/) <br>
+`Climate Change` `Machine Learning`  
+
+<div style="text-align: justify">
+We examine the effect of high temperatures on individual income and document some of the determinants explaining heterogeneous effects. Using the longitudinal administrative survey of Canada, which contains information on 20\% of Canadian tax payers, we document that high temperatures, which are rare events, do not impact aggregate measures of income. The results change when including individual fixed-effects and suggests than a day with average temperature above 30 degrees is associated with a decrease in income by 1.5\% and an increase in health spending by 0.1\%. A decomposition of this effect suggests that it is mainly driven by the sectors of construction and retail.
+
+<font size="3">[<b>Reactive or proactive? Capturing adaptation to climate change using machine learning</b>]()</font> <br>
 with [Julia Mink](https://julia-thompson.github.io/Julia-Mink/) <br>
 `Machine Learning` `Behavior` `Theory` `Adaptation` `Climate Change`
 
 <div style="text-align: justify">
-We study the determinents of climate change adaptation using both machine learning and economic theory. For farmers, crop choice is one of the most effective and cheapest way of mitigating the effects of climate change. Yet it is unclear whether farmers' adapt in reaction to past weather realizations or in anticipation of climate change. We attempt to answer this question by testing two theories: one in which farmers are only backward looking and a second in which they are also forward looking.  Since these two behavioral models do not leave in the same parameter space, we follow Fudenberg et al. (2020) and measure how `_complete_' each theory is by comparing their predictive performance to a predictive upper bound defined using machine learning.
+We study the determinants of climate change adaptation using both machine learning and economic theory. For farmers, crop choice is one of the most effective and cheapest way of mitigating the effects of climate change. Yet it is unclear whether farmers’ adapt in reaction to past weather realisations or in anticipation of climate change. 
+We attempt to answer this question by testing two theories: one in which farmers are only backward looking and a second in which they are also forward looking. Since these two behavioural models do not live in the same parameter space, we follow Fudenberg et al. (2020) and measure how ‘\textit{complete}’ each theory is by comparing their predictive performance to a predictive upper bound defined using machine learning. Our results suggest that behavioural models assuming no adaption best describe the data.
 
 
 <font size="3">[<b>US-China Trade Relationship and US pollution emission</b>]()</font> <br>
