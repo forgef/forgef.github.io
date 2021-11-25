@@ -5,6 +5,7 @@ css: cv_styles.css
 
 You can open my CV in PDF [here](cv.pdf)
 
+
 Jump to <a href="#work">Work Experience</a>, <a href="#education">Education</a> or <a href="#tech">Technical Skills</a>
 
 <a id="work">
