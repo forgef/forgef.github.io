@@ -30,7 +30,7 @@ recommended but not required. <br>
 </details>
 
 
-<font size="3"><b>Topics in International Development</b>, [INTD397 ](https://www.mcgill.ca/isid/files/isid/intd_397-03_professor_fabien_forge_economics_of_environment_and_climate_change_0.pdf), <b> McGill University</b>, winter 2021</font> <br>
+<font size="3"><b>Topics in International Development (Applied Environmental Economics)</b>, [INTD397 ](https://www.mcgill.ca/isid/files/isid/intd_397-03_professor_fabien_forge_economics_of_environment_and_climate_change_0.pdf), <b> McGill University</b>, winter 2021</font> <br>
 Empirical environmental economics: randomized controlled experiment, panel data analysis, regression discontinuity design, Instrumental Variables.
 <details>
 <summary>Details</summary>
