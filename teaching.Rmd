@@ -5,7 +5,15 @@ output: html_document
 
 For details on any of these courses click on the dropdown arrow. <br>
 
-<font size="3"><b>Data Science for Social Scientists</b>, [ECO4199](https://catalogue.uottawa.ca/en/courses/eco/), <b> University of Ottawa</b>, winter 2021</font> <br>
+<font size="3"><b>Quantitative Methods for Development</b>, [INTD356 ](https://www.mcgill.ca/isid/files/isid/intd_397-03_professor_fabien_forge_economics_of_environment_and_climate_change_0.pdf), <b> McGill University</b>, fall 2021</font> <br>
+Fundamentals of econometrics and introduction to research design
+<details>
+<summary>Details</summary>
+Definition and scope of econometrics, regression models and statistical significance. Introduction to RCTs, Panel data analysis, Instrumental Variables and RDD <br>
+</details>
+
+
+<font size="3"><b>Data Science for Social Scientists</b>, [ECO4199](https://catalogue.uottawa.ca/en/courses/eco/), <b> University of Ottawa</b>, winter, fall 2021</font> <br>
 Data science and machine learning (Linear models, Logit, Ridge/Lasso, Tree Methods, Unsupervised Learning, Deep Learning) with applications in Python.
 <details>
 <summary>Details</summary>

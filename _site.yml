@@ -5,26 +5,26 @@ navbar:
   left:
     - text: "CV"
       href: cv.html
-    - text: "Data Science"
-      href: datascience.html
-      menu:
-      - text: Statistics for Causal Inference
-        href: CausalInference.html
-      - text: Statistics for Prediction
-        href: MachineLearning.html
-      - text: Geospatial Tools
-        href: geospatial.html
+    # - text: "Data Science"
+    #   href: datascience.html
+    #   menu:
+    #   - text: Statistics for Causal Inference
+    #     href: CausalInference.html
+    #   - text: Statistics for Prediction
+    #     href: MachineLearning.html
+    #   - text: Geospatial Tools
+    #     href: geospatial.html
     - text: "Economics - Research"
       menu:
       - text: "Research Papers"
         href: research.html
-      - text: "Economic Specialties"
-        href: economics.html
+      # - text: "Economic Specialties"
+      #   href: economics.html
     - text: "Teaching"
       href: teaching.html
   right:
     - icon: fa-envelope fa-lg
-      href: mailto:fforge@uottawa.ca
+      href: mailto:fabien.forge@uottawa.ca
     - icon: fab fa-github
       href: https://github.com/forgef
     - icon: ion-social-twitter
