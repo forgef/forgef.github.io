@@ -15,10 +15,8 @@ output: html_document
 ### Description:
 
 <p align="justify">
-I hold a Ph.D. in economics with over 6 years of experience in quantitative methods and data science. I currently teach these tools as a lecturer of data science and machine learning at the University of Ottawa and statistics for causal inference at McGill University. I am also working as a postdoctoral fellow at the University of Ottawa where I use deep learning to map changes in urban canopy for large Canadian cities and statistics to measure the impact of proximity to trees on income and health.<br>
-
-
-I am currently looking for new opportunities to use my practical experience with data and my strong theoretical background in statistics.
+I am a Senior Economist and Data Scientist for [The Conference Board of Canada](https://www.conferenceboard.ca/).
+I hold a Ph.D. in economics with over 6 years of experience in quantitative methods and data science. Before joining the conference board teach these tools as a lecturer of data science and machine learning at the University of Ottawa and statistics for causal inference at McGill University. I also worked as a postdoctoral fellow at the University of Ottawa where I use deep learning to map changes in urban canopy for large Canadian cities and statistics to measure the impact of proximity to trees on income and health.<br>
 </p>
 
 
