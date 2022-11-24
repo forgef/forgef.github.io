@@ -37,7 +37,7 @@ revenue over the course of the century. Analysis using a structural general equi
 model with portfolio choice suggests consequences of a similar magnitude for welfare</div>
 <br>
 
-<font size="3">[<b>When are Tariff Cuts Not Enough? Heterogeneous Effects of Trade Preferences for the Least Developed Countries</b>](http://web5.uottawa.ca/www5/jasongarred/ForgeGarredKwon2021.pdf)</font> <br>
+<font size="3">[<b>When are Tariff Cuts Not Enough? Heterogeneous Effects of Trade Preferences for the Least Developed Countries</b>](ForgeGarredKwon2022.pdf)</font> <br>
 with [Jason Garred](http://web5.uottawa.ca/www5/jasongarred/index.html) and Kyae Lim Kwon <br>
 _R&R at Journal of International Economics_<br>
 `Causal inference` `Data Mining` `Trade` 
