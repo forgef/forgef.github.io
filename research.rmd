@@ -15,12 +15,12 @@ output: html_document
 [Maya Papineau](https://sites.google.com/site/mayapapineau/home)
 </div>
 
-## Submitted Papers
+## Published Papers
 
 
 
 <font size="3">[<b>Climate Change and the Distribution of Agricultural Output </b>](https://osf.io/preprints/socarxiv/yxzfu/)</font> <br>
-with [Francisco Costa](https://sites.google.com/site/fjmcosta/), [Jason Garred](http://web5.uottawa.ca/www5/jasongarred/index.html) and [Joao Paulo Pessoa](https://sites.google.com/site/joaopaulocnpessoa/). <br>
+with [Francisco Costa](https://sites.google.com/site/fjmcosta/), [Jason Garred](https://jasongarred.org/) and [Joao Paulo Pessoa](https://sites.google.com/site/joaopaulocnpessoa/). <br>
 _R&R at Environmental and Resource Economics_<br>
 `Prediction` `Risk` `Uncertainty` `Climate Change` `Theory`
 
@@ -38,7 +38,7 @@ model with portfolio choice suggests consequences of a similar magnitude for wel
 <br>
 
 <font size="3">[<b>When are Tariff Cuts Not Enough? Heterogeneous Effects of Trade Preferences for the Least Developed Countries</b>](ForgeGarredKwon2022.pdf)</font> <br>
-with [Jason Garred](http://web5.uottawa.ca/www5/jasongarred/index.html) and Kyae Lim Kwon <br>
+with [Jason Garred](https://jasongarred.org/) and Kyae Lim Kwon <br>
 _R&R at Journal of International Economics_<br>
 `Causal inference` `Data Mining` `Trade` 
 
